@@ -1,0 +1,38 @@
+.mat-elevation-z8{
+    padding: 200px;
+}
+table {
+    width: 100%;
+    padding: 10px;
+  }
+
+  th{
+    width: 10%;
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    
+  }
+  .modul{
+    
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color:#8dbcee;
+  }
+  .letra{
+    font-size: 30px;
+    color: #313131;
+    padding-left: 45%;
+  }

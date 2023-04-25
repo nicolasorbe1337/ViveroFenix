@@ -1,0 +1,37 @@
+.body {
+    background:
+    linear-gradient(to right, rgba(75, 123, 211, 0.5), rgba(22, 215, 177, 0.3)),  url(https://img.freepik.com/vector-gratis/deja-fondo-papel-metalico_79603-956.jpg?w=2000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+  }
+    /*display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    url( );*/
+
+
+
+.login{
+    width: 100%;
+    max-width: 330px;
+    text-align: center;
+}
+
+.ancho{
+    width: 80%;
+}
+
+.button{
+    height: 50px;
+    width: 80%;
+    
+}
+
+.spinner{
+    margin: 0 auto;
+}

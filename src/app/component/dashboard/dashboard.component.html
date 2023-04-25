@@ -1,0 +1,43 @@
+
+<mat-drawer-container>
+    
+    <mat-drawer mode="side" opened="true">
+        <mat-nav-list>
+            <div class="logo">
+                <img src="../../../assets/img/logotipo2.png" alt="company logo" width="195" height="128">
+                 
+            </div>
+            <ul class='bx-ul'>
+                <div class="dashboard">
+                    <li routerLink="/dashboard"> <i class='bx bxs-dashboard' style='color:#f9f7f7' routerLink="/dashboard" ></i>Dashboard</li>
+                </div>
+                <div>
+                    <li routerLink="/dashboard/ventas"><i class='bx bx-money-withdraw' style='color:#ffffff' routerLink="/dashboard/ventas" ></i>Ventas</li>
+                </div>
+                <div>
+                    <li routerLink="/dashboard/compras"><i class='bx bx-cart-download' style='color:#ffffff' routerLink="/dashboard/compras" ></i>Compras</li>
+                </div>
+                <div>
+                    <li routerLink="/dashboard/stock"><i class='bx bx-candles' style='color:#ffffff' routerLink="/dashboard/stock"></i>Stock</li>
+                </div>
+                <div>
+                    <li routerLink="/dashboard/clientes"><i class='bx bxs-user-detail' style='color:#ffffff' routerLink="/dashboard/clientes"></i>Clientes</li>
+                </div>
+                <div class="setting">
+                    <li routerLink="/dashboard/settings"><i class='bx bxs-cog' style='color:#ffffff' routerLink="/dashboard/settings"></i>Setting</li>
+                </div>  
+            </ul>
+            
+        </mat-nav-list>
+        
+    </mat-drawer>
+    
+  <!-- Pantalla de componentes -->
+    <mat-drawer-content>   
+        <div>
+            <router-outlet></router-outlet>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>
+
+ 
